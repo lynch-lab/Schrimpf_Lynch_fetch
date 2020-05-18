@@ -25,5 +25,7 @@ Time:
 Format:  
 --GRIB  
 
-
-Other summary files produced by the R script are included in the project, and any shapefiles are stored in the Shapefile folder.
+Other summary files produced by the R script are included in the project, and any shapefiles are stored in the Shapefile folder. Note, the polygon shapefile used in the fetch calculation is too large to put on GitHub, but is available online from the Antarctic Digital Database:  
+https://www.add.scar.org/  
+The coastline I used is the medium-resolution polygon coastline layer, and the most recent version is available here:  
+https://data.bas.ac.uk/items/862f7159-9e0d-46e2-9684-df1bf924dabc/  
