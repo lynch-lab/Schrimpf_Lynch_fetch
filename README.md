@@ -8,6 +8,22 @@ The data file 'pop.pursuit.csv' incorporates the data from MAPPPD as well as the
 
 The rest of the analysis and figures for the paper are produced with the code found in the R script: Analysis_code.R.
 
-Wind data files extracted from https://cds.climate.copernicus.eu/about-c3s are included as .grib files.
+Wind data files must be downloaded from the Copernicus website: https://cds.climate.copernicus.eu/about-c3s
+The link I used was this: https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels-monthly-means?tab=form.
+The selection used in the manuscript included the following options:
+Product type:
+--Monthly average reanalysis
+Variable (under “Popular”):
+--10m u-component of wind
+--10m v-component of wind
+Year:
+--1979-1983
+Month:
+--Jan, Feb, Nov, Dec
+Time:
+--00:00
+Format:
+--GRIB
+
 
 Other summary files produced by the R script are included in the project, and any shapefiles are stored in the Shapefile folder.
